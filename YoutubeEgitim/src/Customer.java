@@ -1,0 +1,31 @@
+
+public class Customer {//MüşteriBilgileri
+	
+	 public Customer() {
+		
+		System.out.println("Müşteri nesnesi başlatıldı");
+	}
+	
+	
+	public int id;
+	
+	public String City;
+	
+	
+	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	
+	
+	public String getCity() {
+		return City;
+	}
+	public void setCity(String city) {
+		City = city;
+	}
+	
+}
